@@ -159,36 +159,36 @@ public class ModIntegrationTF extends ModIntegration
       }
       
       AlloyMixerRecipeManager.instance.AddRecipe(
-          new FluidStack(liquid_enderium, 108),
+          new FluidStack(liquid_enderium, 144),
           new FluidStack[] {
-            new FluidStack(FoundryRecipes.liquid_tin, 54),
-            new FluidStack(FoundryRecipes.liquid_silver, 27),
-            new FluidStack(liquid_platinum, 27),
-            new FluidStack(liquid_ender, 250)
+            new FluidStack(FoundryRecipes.liquid_tin, 72),
+            new FluidStack(FoundryRecipes.liquid_silver, 36),
+            new FluidStack(liquid_platinum, 36),
+            new FluidStack(liquid_ender, 333)
             });
 
       AlloyMixerRecipeManager.instance.AddRecipe(
-          new FluidStack(liquid_signalum, 108),
+          new FluidStack(liquid_signalum, 144),
           new FluidStack[] {
-            new FluidStack(FoundryRecipes.liquid_copper, 81),
-            new FluidStack(FoundryRecipes.liquid_silver, 27),
-            new FluidStack(destabilized_redstone, 250)
+            new FluidStack(FoundryRecipes.liquid_copper, 108),
+            new FluidStack(FoundryRecipes.liquid_silver, 36),
+            new FluidStack(destabilized_redstone, 333)
             });
 
       AlloyMixerRecipeManager.instance.AddRecipe(
-          new FluidStack(liquid_signalum, 4),
+          new FluidStack(liquid_signalum, 5),
           new FluidStack[] {
-            new FluidStack(FoundryRecipes.liquid_copper, 3),
-            new FluidStack(FoundryRecipes.liquid_silver, 4),
-            new FluidStack(liquid_redstone, 4)
+            new FluidStack(FoundryRecipes.liquid_copper, 4),
+            new FluidStack(FoundryRecipes.liquid_silver, 5),
+            new FluidStack(liquid_redstone, 5)
             });
 
       AlloyMixerRecipeManager.instance.AddRecipe(
-          new FluidStack(liquid_lumium, 108),
+          new FluidStack(liquid_lumium, 144),
           new FluidStack[] {
-            new FluidStack(FoundryRecipes.liquid_tin, 81),
-            new FluidStack(FoundryRecipes.liquid_silver, 27),
-            new FluidStack(liquid_glowstone, 250)
+            new FluidStack(FoundryRecipes.liquid_tin, 108),
+            new FluidStack(FoundryRecipes.liquid_silver, 36),
+            new FluidStack(liquid_glowstone, 333)
             });
 
       CastingRecipeManager.instance.AddRecipe(new ItemStack(Blocks.redstone_block), new FluidStack(destabilized_redstone, 900), mold_block, null);

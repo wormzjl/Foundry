@@ -14,10 +14,10 @@ import exter.foundry.api.registry.IItemRegistry;
  */
 public class FoundryAPI
 {
-  static public final int FLUID_AMOUNT_BLOCK = 972;
-  static public final int FLUID_AMOUNT_INGOT = 108;
-  static public final int FLUID_AMOUNT_NUGGET = 12;
-  static public final int FLUID_AMOUNT_ORE = 216;
+  static public final int FLUID_AMOUNT_BLOCK = 1296;
+  static public final int FLUID_AMOUNT_INGOT = 144;
+  static public final int FLUID_AMOUNT_NUGGET = 16;
+  static public final int FLUID_AMOUNT_ORE = 288;
 
   /**
    * Maximum amount of substance a metal infuser can store.
